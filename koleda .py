@@ -27,8 +27,8 @@ f_g1 = 392.00
 f_a1 = 440.00
 f_c2 = 523.25
 
-xh_8 = np.sin(2 * np.pi * f_h0 * t8 )
 
+xh_8 = np.sin(2 * np.pi * f_h0 * t8 )
 
 xc_2 = np.sin(2 * np.pi * f_c1 * t2 )
 xc_4 = np.sin(2 * np.pi * f_c1 * t4 )
@@ -49,8 +49,6 @@ xf_8 = np.sin(2 * np.pi * f_f1 * t8 )
 xg_2 = np.sin(2 * np.pi * f_g1 * t2 )
 xg_4 = np.sin(2 * np.pi * f_g1 * t4 )
 xg_8 = np.sin(2 * np.pi * f_g1 * t8 )
-xg_16 = np.sin(2 * np.pi * f_g1 * t16 )
-
 
 xa_4 = np.sin(2 * np.pi * f_a1 * t4 )
 xa_8 = np.sin(2 * np.pi * f_a1 * t8 )
