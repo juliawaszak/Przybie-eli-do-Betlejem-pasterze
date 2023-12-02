@@ -6,7 +6,6 @@ Created on Wed Nov 29 18:47:04 2023
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 import sounddevice as sd
 
 fs = 2000 
@@ -58,9 +57,9 @@ xa_8 = np.sin(2 * np.pi * f_a1 * t8 )
 
 xc2_4 = np.sin(2 * np.pi * f_c2 * t4 )
 
-przybierzeli = np.concatenate((xc_8, xh_8, xc_8, xd_8, xe_8, xd_8, xe_8, xf_8, xg_4, xa_4, xg_2, 
+przybiezeli = np.concatenate((xc_8, xh_8, xc_8, xd_8, xe_8, xd_8, xe_8, xf_8, xg_4, xa_4, xg_2, 
                     xc_8, xh_8, xc_8, xd_8, xe_8, xd_8, xe_8, xf_8, xg_4, xa_4, xg_2,
                     xc2_4, xg_8, xg_8, xa_8, xg_8, xf_8, xe_8, xf_4, xf_8, xa_8, xg_8, xf_8, xe_8, xd_8, xe_4, xf_4, xg_2, xe_4, xd_4, xc_2,
                     xc2_4, xg_8, xg_8, xa_8, xg_8, xf_8, xe_8, xf_4, xf_8, xa_8, xg_8, xf_8, xe_8, xd_8, xe_4, xf_4, xg_2, xe_4, xd_4, xc_2))
 
-sd.play(przybierzeli,fs)
+sd.play(przybiezeli,fs)
